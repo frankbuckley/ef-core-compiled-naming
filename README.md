@@ -9,7 +9,4 @@ To reproduce:
 - Run the app
 - NullReferenceException is thrown `at Microsoft.EntityFrameworkCore.Metadata.RuntimeProperty.<>c.<GetValueComparer>b__47_0(RuntimeProperty property)`
 
-Issue is at [line 35 in SentenceEntityType](./EfCoreCompiledModelNaming/CompiledModels/SentenceEntityType.cs#L35) - `Sentence` is no qualkified to refer to `AnotherNamespace.Sentence`
-
-
-
+Issue is at [line 36 in SentenceEntityType](./EfCoreCompiledModelNaming/CompiledModels/SentenceEntityType.cs#L36) - `Sentence` is no qualkified to refer to `AnotherNamespace.Sentence`

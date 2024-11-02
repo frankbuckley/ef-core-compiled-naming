@@ -1,1 +1,2 @@
-# ef-core-compiled-naming
+# EF Core compiled model naming conflict repro
+
